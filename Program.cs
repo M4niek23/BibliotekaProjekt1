@@ -32,7 +32,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app;
 app.UseAuthorization();
 
 app.MapRazorPages();
